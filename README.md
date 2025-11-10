@@ -3,6 +3,11 @@ Le **_EWA_** est ajouté pour distinguer ce dossier d'un autre dossier de classi
 Le rapport sur la classification **_Rapport_data_challenge_EWA.pdf_** contient ce qui a été fait sur le problème de classification
 avec une agrégation d'experts avec l'algorthme EWA.
 
+- - Vous trouverez un dossier **Classification_SVM** où il y a le code pour le problème de classification.
+  - Le fichier qui permet d’obtenir les soumissions est le fichier **simple_predict**. Les différents modèles sont dans le dossier **SVM_models**
+  - Pour choisir un modèle, il faut décommenter l’impmort souhaité dans **simple_predict** et commenter les autres
+  - Pour importer les données, il faut modifier la variable **DATA_DIR** ligne 23 du fichier **simple_predict**.
+
 - Vous trouverez un dossier **Data_challenge_de_régression_Notebook_final.py** où il y a le code pour le problème de régression.
 Les données ont été chargées à l'aide de la fonction files() de google.colab. Mais elles peuvent etre chargées à l'aide d'une autre bibliothèque si nécessaire.
 L'important est de charger les 4 fichiers train_data.csv, test_data.csv, data.csv et dataset.csv au début du script.
